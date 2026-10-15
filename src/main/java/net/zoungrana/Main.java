@@ -23,11 +23,6 @@ public class Main {
         uc.setVga(new SuperVP());
         uc.print("Bonjour");
 
-        VGAHDMIAdapter adapter1=new VGAHDMIAdapter();
-        adapter1.setHdmi(new SuperVP());
-        uc.setVga(adapter1);
-        uc.print("Bonjour");
-
         VGAHDMIAdapterH adapterH=new VGAHDMIAdapterH();
         uc.setVga(adapterH);
 
