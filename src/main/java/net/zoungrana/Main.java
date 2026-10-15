@@ -2,6 +2,7 @@ package net.zoungrana;
 
 
 import net.zoungrana.adapter.VGAHDMIAdapter;
+import net.zoungrana.adapter.VGAHDMIAdapterH;
 import net.zoungrana.computer.*;
 
 public class Main {
@@ -26,5 +27,10 @@ public class Main {
         adapter1.setHdmi(new SuperVP());
         uc.setVga(adapter1);
         uc.print("Bonjour");
+
+        VGAHDMIAdapterH adapterH=new VGAHDMIAdapterH();
+        uc.setVga(adapterH);
+
+        uc.print("Test Adapteur par héritage");
     }
 }
