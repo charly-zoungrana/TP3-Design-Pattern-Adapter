@@ -2,7 +2,7 @@
 
 Implémentation en Java du design pattern **Adapter**, réalisée dans le cadre du module Design Patterns (ENSET Mohammedia, cycle ingénieur GLSID).
 
-Ce projet illustre l'intégration et l'interopérabilité entre composants aux interfaces incompatibles (standard **VGA** et standard **HDMI**) en mettant en œuvre les deux variantes canoniques du pattern : l'adaptateur par **composition** (adaptateur d'objets) et l'adaptateur par **héritage** (adaptateur de classes).
+Ce TP illustre l'intégration et l'interopérabilité entre composants aux interfaces incompatibles (standard **VGA** et standard **HDMI**) en mettant en œuvre les deux variantes canoniques du pattern : l'adaptateur par **composition** (adaptateur d'objets) et l'adaptateur par **héritage** (adaptateur de classes).
 
 ## Sommaire
 
