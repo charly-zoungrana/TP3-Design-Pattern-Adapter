@@ -1,7 +1,9 @@
 package net.zoungrana;
 
 
+import net.zoungrana.adapter.VGAHDMIAdapter;
 import net.zoungrana.computer.Ecran;
+import net.zoungrana.computer.TV;
 import net.zoungrana.computer.UniteCentrale;
 import net.zoungrana.computer.VideoProjecteur;
 
@@ -12,6 +14,12 @@ public class Main {
         uc.print("Bonjour");
 
         uc.setVga(new VideoProjecteur());
+        uc.print("Bonjour");
+
+        VGAHDMIAdapter adapter=new VGAHDMIAdapter();
+        adapter.setHdmi(new TV());
+
+        uc.setVga(adapter);
         uc.print("Bonjour");
     }
 }
